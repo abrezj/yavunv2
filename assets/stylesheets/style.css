@@ -222,7 +222,7 @@ a:hover .hovertext {
 #circle_infographic {
   margin: 35vh 0 0 5%;
   /* background-color: rgb(179, 179, 179); */
-  background: url("assets/images/backgrounds/phoneTech.jpg");
+  background: url("../images/backgrounds/phoneTech.jpg");
   background-position: center;
   background-size: cover;
 
@@ -438,7 +438,7 @@ a:hover .hovertext {
 
 #services_offered {
   margin: 15vh 0 0 5%;
-  background: url("assets/images/backgrounds/Interactivity.jpg");
+  background: url("../images/backgrounds/Interactivity.jpg");
   background-position: center;
   background-size: cover;
   height: 100%;
@@ -678,7 +678,7 @@ a:hover .hovertext {
 
 .container_solid .title_wrapper h1 {
   /* the text background */
-  background: url("assets/images/backgrounds/test1.jpg");
+  background: url("../images/backgrounds/test1.jpg");
   background-size: 100vw auto;
   background-position: center;
 
@@ -693,7 +693,7 @@ a:hover .hovertext {
 }
 
 .container_solid .title_wrapper #subtext {
-  background: url("assets/images/backgrounds/test1.jpg");
+  background: url("../images/backgrounds/test1.jpg");
   background-size: 100vw auto;
   background-position: center;
   margin-top: 1.5em;
@@ -709,7 +709,7 @@ a:hover .hovertext {
 
 .container_image {
   /* Grab a free image from unsplash */
-  background-image: url("assets/images/backgrounds/test1.jpg");
+  background-image: url("../images/backgrounds/test1.jpg");
   background-size: 100vw auto;
   background-position: center;
   background-attachment: fixed;
@@ -840,7 +840,7 @@ a:hover .hovertext {
   margin: 25vh 0 5vh 5%;
   height: 100%;
   width: 90%;
-  background-image: url("assets/images/backgrounds/subscribe1.jpg");
+  background-image: url("../images/backgrounds/subscribe1.jpg");
   background-position: top;
   background-size: cover;
   border-radius: 25px;
