@@ -1,0 +1,240 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: rgba(255, 255, 255, 0.8);
+  letter-spacing: 0.1em;
+}
+
+.logo1 {
+  transform: scale(0.85);
+  /* filter: invert(); */
+}
+
+#header_bg {
+  /* background-image: url("../assets/SVG/contact_us.svg"); */
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  background: #1488cc;
+  background: -webkit-linear-gradient(to right, #2b32b2, #1488cc);
+  background: linear-gradient(to right, #2b32b2, #1488cc);
+}
+
+.header_design {
+  text-align: center;
+  width: 70%;
+  margin: 3% auto;
+}
+
+.header_design .header_heading {
+  color: white;
+  border-radius: 25px;
+}
+
+.header_design .header_body {
+  color: rgba(255, 255, 255, 0.7);
+  margin: 5%;
+}
+
+/* SCROLL BUTTON */
+.scrollButtons {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.scrollButtons::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  content: "";
+  width: 100%;
+  height: 80%;
+  background: -webkit-linear-gradient(
+    top,
+    rgba(0, 0, 0, 0) 0,
+    rgba(0, 0, 0, 0.8) 80%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0,
+    rgba(0, 0, 0, 0.8) 80%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
+}
+
+.demo a {
+  text-decoration: none;
+  transition: opacity 0.3s;
+}
+.demo a:hover {
+  opacity: 0.5;
+}
+
+#scrollButton a span {
+  position: absolute;
+  /* left: 20%; */
+  width: 30px;
+  height: 50px;
+  margin-left: -15px;
+  margin-top: 3em;
+  border: 2px solid #000428;
+  border-radius: 50px;
+  box-sizing: border-box;
+}
+#scrollButton a span::before {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  content: "";
+  width: 6px;
+  height: 6px;
+  margin-left: -3px;
+  background-color: rgb(94, 124, 206);
+  border-radius: 100%;
+  box-sizing: border-box;
+}
+#scrollButton a span::after {
+  position: absolute;
+  bottom: -18px;
+  left: 50%;
+  width: 18px;
+  height: 18px;
+  content: "";
+  margin-left: -9px;
+  border-left: 1px solid #000428;
+  border-bottom: 1px solid #000428;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  box-sizing: border-box;
+}
+
+/* FORM SECTION */
+
+#form_section {
+  margin: 0 auto;
+  margin-top: 20%;
+  margin-bottom: 10%;
+  width: 85%;
+  height: 100%;
+  border-radius: 25px;
+  border: 2px solid #fdbb2d;
+}
+
+#form_section .form-floating {
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+  margin: 5% 20%;
+  margin-left: 30%;
+}
+
+#form_section #form_svg {
+  background: #fdbb2d;
+
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+
+#form_section #svg {
+  width: 100%;
+  height: 100%;
+  margin: 0 5%;
+  padding-right: 2%;
+}
+
+#form_section input,
+#form_section select,
+#form_section textarea {
+  border-radius: 10px;
+}
+
+#form_section label {
+  margin-bottom: 1%;
+  font-weight: 600;
+}
+
+#form_section #submitbtn {
+  letter-spacing: 0.1em;
+  width: 40%;
+  background-color: #fdbb2d;
+  border: none;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+#form_section #submitbtn:hover {
+  transform: scale(1.1) translateX(10px);
+  letter-spacing: 0.25em;
+}
+
+/* FAREWELL SECTION */
+
+#farewell {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../assets/SVG/contact_us.svg");
+}
+
+#farewell .display-2 {
+  width: 90%;
+  font-size: 4em;
+  margin: 0 auto;
+}
+
+/* FOOTER */
+#footer {
+  margin: 30vh 0 0 2%;
+  height: 50%;
+  width: 95%;
+  border-radius: 25px;
+}
+
+#footer .footer_col1 {
+  border-radius: 25px;
+  margin-left: 3%;
+  margin-right: 5%;
+  display: inline-block;
+  width: 40%;
+  float: left;
+}
+
+#footer .footer_col2 {
+  float: right;
+  margin-right: 2em;
+}
+
+#footer .heading {
+  font-size: 2em;
+  font-weight: 600;
+}
+
+#footer .email,
+.loc {
+  margin-bottom: 1em;
+}
+
+#footer .email a,
+.loc a {
+  text-decoration: none;
+  padding-left: 1em;
+}
+
+#footer .copyright_box {
+  float: left;
+  width: 100%;
+  margin: 1.5em;
+  padding-left: 26%;
+  color: rgba(0, 0, 0, 0.6);
+}

@@ -1,197 +1,274 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yavun - Features</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+      integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/fontawesome.min.css"
+      integrity="sha512-OdEXQYCOldjqUEsuMKsZRj93Ht23QRlhIb8E/X0sbwZhme8eUw6g8q7AdxGJKakcBbv7+/PX0Gc2btf7Ru8cZA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://kit.fontawesome.com/f75cad29d4.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="css/features_styles.css" />
+  </head>
+  <body>
+    <section class="container-fluid" id="header_bg">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="indexv2.html"
+            ><img
+              class="logo1"
+              src="assets/images/infographics/logo.png"
+              alt=""
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="/indexv2.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/features.html">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/contact_us.html">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <header class="header_design p-4">
+        <h1 class="header_heading display-2 text-white">
+          <span
+            data-aos="fade-down"
+            data-aos-duration="3500"
+            data-aos-delay="200"
+            >Build,</span
+          >
+          <span
+            data-aos="fade-left"
+            data-aos-duration="3500"
+            data-aos-delay="200"
+            >Send</span
+          >
+          <span
+            data-aos="fade-right"
+            data-aos-duration="3500"
+            data-aos-delay="200"
+            >and Track</span
+          >
+          Your Campaigns
+        </h1>
+        <p class="header_body text-white-50">
+          Yavun allows you to build effective campaigns in minutes,<br />
+          leaving you more time analyzing your customers.
+        </p>
+        <a href="http://app.yavun.com/app/#/app/register/user" target="_blank"
+          ><button class="signup_btn btn btn-outline-light px-4" type="button">
+            Free Sign Up
+          </button></a
+        >
+        <section id="scrollButton" class="scrollButtons demo">
+          <a href="#features_main"><span></span></a>
+        </section>
+      </header>
+    </section>
 
-<head>
-
-	<meta charset="UTF-8">
-	<title>Yavun</title>
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-
-
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/styles.css">
-	<link rel="stylesheet" href="css/responsive.css">
-
-	<style>
-		.features_row .right_col {
-			float: right;
-			width: 45%;
-		}
-
-		.features_row .left_col {
-			text-align: left;
-			float: left;
-			width: 45%;
-		}
-
-		.features_row .rightTxt_fix {
-			padding-right: 0%;
-		}
-	</style>
-</head>
-
-<body>
-	<header class="header_design">
-		<div class="container-fluid">
-
-			<div class="navbar navbar-default">
-				<div class="navbar-header">
-					<button type="button" id="collbtn" class="navbar-toggle" data-toggle="collapse"
-						data-target=".navbar-collapse">
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<a class="navbar-brand" href="index.html">
-						<img class="logo1" src="css/images/logo.png" alt="">
-						<img class="logo2" src="css/images/logo_2.png" alt="">
-					</a>
-				</div>
-
-				<div class="navbar-collapse collapse">
-					<ul class="nav navbar-nav">
-						<li class=""><a href="#">Features</a></li>
-						<li class=""><a href="contact_us.html">Contact Us</a></li>
-						<!-- <li><a href="#">FAQ</a></li> -->
-						<!-- <li><a href="#">Contact Us</a></li> -->
-						<li class="bar bar_left"><a href="https://app.yavun.com/app/#/app/login" target="_blank">Login</a></li>
-						<li class="bar_line"></li>
-						<li class="bar bar_right"><a href="https://app.yavun.com/app/#/app/register/user"
-								target="_blank">Free Sign up</a></li>
-
-					</ul>
-				</div>
-			</div>
-		</div>
-	</header>
-
-	<section class="main_screen innerPages">
-		<div class="inner_content inner_content1">
-			<p class="header_heading">Build, Send and Track Your Campaigns</p>
-			<p class="header_text">Yavun allows you to build effective campaigns in minutes, leaving</br>
-				you more time analyzing your customers.
-			</p>
-			<a href="http://www.stage.yavun.webcontentor.com/app/#/app/register/user" target="_blank"><button
-					class="ad_btn" type="button">Free Sign Up</button></a>
-
-		</div>
-	</section>
-
-	<section class="body_content">
-		<div class="inner_content">
-			<div class="features_row">
-				<div class="left_col">
-					<p class="feature_heading">Increase Audience</p>
-					<p class="feature_txt">Our integrated 360° campaign solution seamlessly integrates marketing
-						elements like Emails, Promotional/ Landing Pages, Blogs, Banner Ads and Social Media to increase
-						your audience outreach. We integrate with your Marketing Automation/ CRM systems or help you to
-						procure or build suitable lists of your target profiles. We can broadcast campaign messages to
-						social media platforms including Facebook, Twitter and Linkedin from a single dashboard and link
-						these as well as messages in Blogs, Banner Ads and Emails to effective Promotional/ Landing
-						pages. </p>
-				</div>
-				<div class="right_col">
-					<div class="feature_screen">
-						<img src="css/images/increase-pic.jpg">
-					</div>
-				</div>
-			</div>
-
-			<div class="features_row middRow">
-				<div class="left_col">
-					<div class="feature_screen">
-						<img src="css/images/improve-pic.jpg">
-					</div>
-				</div>
-				<div class="right_col rightTxt_fix">
-					<p class="feature_heading">Improve Conversion</p>
-					<p class="feature_txt">We deploy the right infrastructure and use compliant and conforming methods
-						to ensure highest deliverability standards for campaign messages. We use demographic information
-						to send customized messages. Our Promotional/ Landing pages are designed and deployed to have
-						minimum noise and effective conversion. Campaigns built to target large value B2B transactions
-						or targeting large audiences for B2C businesses, our systems are capable of tailoring to fit.
-						With multivariate testing you can tune messaging and with the analytics engine get predictive
-						analysis for high conversion rates.</p>
-				</div>
-			</div>
-
-			<div class="features_row">
-				<div class="left_col">
-					<p class="feature_heading">Build Brand and Loyalty</p>
-					<p class="feature_txt">We are able to design custom campaigns or customize existing templates to
-						best reflect your brand, staying consistent with your branding elements like style guide, theme
-						and other visuals. Provisions within the Yavun platform enable deployment of loyalty programs
-						targeting engagement and revenue goals.Yavun maps custom fields in your database and integrates
-						with your Marketing Automation (MA) and Customer Relationship Management (CRM) systems. This
-						helps to create personalized campaigns thereby improving customer loyalty, increasing customer
-						retention & upselling.</p>
-				</div>
-				<div class="right_col">
-					<div class="feature_screen">
-						<img src="css/images/build-pic.jpg">
-					</div>
-				</div>
-			</div>
-
-
-		</div>
-	</section>
-
-
-	<footer>
-		<div class="inner_content">
-			<div class="footer_col footer_col1">
-				<p class="heading">About Yavun</p>
-				<p class="txt">A digital campaign management platform, along with a Content Management System allows you
-					to manage distributed campaign channels (Emails, Promotional Pages, Advertising Banners, Social
-					Media Posts, Blogs) from a single dashboard; to increase audience outreach, improve conversion,
-					build brand and loyalty.</p>
-			</div>
-
-			<div class="footer_col footer_col2">
-				<!-- <p class="heading">Learning & Support</p>
-			<div class="link_tags">
-				<ul>
-					<li><a href="javascript:void(0);">Features</a></li>
-					<li><a href="javascript:void(0);">FAQ</a></li>
-					<li><a href="javascript:void(0);">Pricing</a></li>
-					<li><a href="javascript:void(0);">Help</a></li>
-				</ul>
-			</div>
-			<div class="social_links">
-				<ul>
-					<li class="facebook"><a href="javascript:void(0);"></a></li>
-					<li class="twitter"><a href="javascript:void(0);"></a></li>
-					<li class="googlePlus"><a href="javascript:void(0);"></a></li>
-					<li  class="instagram"><a href="javascript:void(0);"></a></li>
-				</ul>
-			</div> -->
-			</div>
-
-			<div class="footer_col footer_col3">
-				<p class="heading">Contact Us</p>
-				<div class="email_links">
-					<ul>
-						<li class="email"><a href="javascript:void(0);">yavun@webcontentor.com</a></li>
-
-						<li class="loc"><a href="javascript:void(0);">Billerica, Massachusetts</a></li>
-
-					</ul>
-				</div>
-			</div>
-		</div>
-		<div class="copyright_box">
-			<div class="inner_content">
-				<p class="txt">&copy2018. “Yavun” A Complete Online Solution for Campaign Management</p>
-			</div>
-		</div>
-	</footer>
-
-</body>
-
-<script type="text/jscript" src="js/jquery-1.9.1.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script type="text/javascript" src="js/navbar-script.js"></script>
-
+    <section id="features_main">
+      <div class="row hor_card" data-aos="fade-right">
+        <div class="col">
+          <img
+            src="./assets/images/infographics/increase-pic.jpg"
+            alt=""
+            class="card_image img-thumbnail"
+            data-bs-toggle="modal"
+            data-bs-target="#staticBackdrop"
+          />
+        </div>
+        <div class="col-8 text_content">
+          <h2 class="display-5">Increase Audience</h2>
+          <p>
+            Our integrated 360° campaign solution seamlessly integrates
+            marketing elements like Emails, Promotional/ Landing Pages, Blogs,
+            Banner Ads and Social Media to increase your audience outreach. We
+            integrate with your Marketing Automation/ CRM systems or help you to
+            procure or build suitable lists of your target profiles. We can
+            broadcast campaign messages to social media platforms including
+            Facebook, Twitter and Linkedin from a single dashboard and link
+            these as well as messages in Blogs, Banner Ads and Emails to
+            effective Promotional/ Landing pages.
+          </p>
+        </div>
+      </div>
+      <div class="row hor_card" data-aos="fade-left">
+        <div class="col">
+          <img
+            src="./assets/images/infographics/improve-pic.jpg"
+            alt=""
+            class="card_image img-thumbnail"
+            data-bs-toggle="modal"
+            data-bs-target="#staticBackdrop"
+          />
+        </div>
+        <div class="col-8 text_content">
+          <h2 class="display-5">Improve Conversion</h2>
+          <p>
+            We deploy the right infrastructure and use compliant and conforming
+            methods to ensure highest deliverability standards for campaign
+            messages. We use demographic information to send customized
+            messages. Our Promotional/ Landing pages are designed and deployed
+            to have minimum noise and effective conversion. Campaigns built to
+            target large value B2B transactions or targeting large audiences for
+            B2C businesses, our systems are capable of tailoring to fit. With
+            multivariate testing you can tune messaging and with the analytics
+            engine get predictive analysis for high conversion rates.
+          </p>
+        </div>
+      </div>
+      <div class="row hor_card" data-aos="fade-right">
+        <div class="col">
+          <img
+            src="./assets/images/infographics/build-pic.jpg"
+            alt=""
+            class="card_image img-thumbnail"
+            data-bs-toggle="modal"
+            data-bs-target="#staticBackdrop"
+          />
+        </div>
+        <div class="col-8 text_content">
+          <h2 class="display-5">Build Brand and Loyalty</h2>
+          <p>
+            We are able to design custom campaigns or customize existing
+            templates to best reflect your brand, staying consistent with your
+            branding elements like style guide, theme and other visuals.
+            Provisions within the Yavun platform enable deployment of loyalty
+            programs targeting engagement and revenue goals.Yavun maps custom
+            fields in your database and integrates with your Marketing
+            Automation (MA) and Customer Relationship Management (CRM) systems.
+            This helps to create personalized campaigns thereby improving
+            customer loyalty, increasing customer retention & upselling.
+          </p>
+        </div>
+      </div>
+    </section>
+    <div
+      class="modal fade"
+      id="staticBackdrop"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel"></h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img src="" class="img-fluid" alt="" />
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer id="footer">
+      <div class="container-fluid">
+        <div class="footer_col1">
+          <p class="heading">About Yavun</p>
+          <p class="txt">
+            A digital campaign management platform, along with a Content
+            Management System allows you to manage distributed campaign channels
+            (Emails, Promotional Pages, Advertising Banners, Social Media Posts,
+            Blogs) from a single dashboard; to increase audience outreach,
+            improve conversion, build brand and loyalty.
+          </p>
+        </div>
+        <div class="footer_col2">
+          <p class="heading">Contact Us</p>
+          <div class="email_loc">
+            <div class="email">
+              <i class="fas fa-envelope"></i
+              ><a href="javascript:void(0);">yavun@webcontentor.com</a>
+            </div>
+            <div class="loc">
+              <i class="fas fa-thumbtack"></i
+              ><a href="javascript:void(0);">Billerica, Massachusetts</a>
+            </div>
+          </div>
+        </div>
+        <div class="copyright_box">
+          &copy2018. “Yavun” A Complete Online Solution for Campaign Management
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 400,
+        duration: 500,
+      });
+    </script>
+    <script>
+      $(document).ready(function () {
+        $("#staticBackdrop").on("show.bs.modal", function (e) {
+          var image = $(e.relatedTarget).attr("src");
+          $(".img-fluid").attr("src", image);
+        });
+      });
+    </script>
+  </body>
 </html>
